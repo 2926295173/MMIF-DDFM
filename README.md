@@ -39,6 +39,8 @@ conda create -n DDFM python=3.8.10
 conda activate DDFM
 # select pytorch version yourself
 # install DDFM requirements
+pip install torch==1.8.1+cpu torchvision==0.9.1+cpu -f https://download.pytorch.org/whl/torch_stable.html
+
 pip install -r requirements.txt
 ```
 
